@@ -1,0 +1,8 @@
+body{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+div {
+    margin: 10px;
+    width: 200px
+}
