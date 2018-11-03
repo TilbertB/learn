@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0
+}
+
+header{
+    padding-top: 25px;
+    background-color: #ffc13b;
+    text-align: center
+}
+
+.logo {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Kodchasan', Arial, sans-serif
+}
+
+header input {
+    font-size: 30px;
+    margin: 25px;
+}

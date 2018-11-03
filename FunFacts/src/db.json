@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "1",
+        "fact": "PCs went by the name “Electronic Brains” in the 1950s."
+    },
+    {
+        "id": 2,
+        "title": "2",
+        "fact": "Email has been around longer than the World Wide Web."
+    },
+    {
+        "id": 3,
+        "title": "3",
+        "fact": "HP, Google, Microsoft and Apple have just one thing in common, other than the fact that they are IT companies. They were all started in garages."
+    },
+    {
+        "id": 4,
+        "title": "4",
+        "fact": "Bill Gates’ house was designed used a Mac computer."
+    }
+]
