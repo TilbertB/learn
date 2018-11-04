@@ -31,7 +31,7 @@ class App extends Component {
         let factsFiltered = this.state.filtered;
         let factsAll = this.state.facts;
         return (
-            <div>
+            <div className="global">
                 <Header keyword={this.getKeyword}/>
                 <FactsList facts={factsFiltered.length === 0 ? factsAll : factsFiltered}/>
                 <Footer/>
