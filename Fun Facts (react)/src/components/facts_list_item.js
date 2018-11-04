@@ -3,7 +3,7 @@ import React from 'react';
 const FactsItem = ({item}) => {
     return (
         <div>
-            <h3>{item.title}</h3>
+            <h2>{item.title}</h2>
             <p>{item.fact}</p>
         </div>
     )

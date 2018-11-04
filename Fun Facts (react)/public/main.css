@@ -1,21 +1,57 @@
+*{
+    font-family: 'Kodchasan', Arial, sans-serif
+}
 body{
     margin: 0;
-    padding: 0
-}
+    padding: 0;
 
+}
+p,
+h2{
+    width: 450px;
+    min-height: 75px;
+    padding: 0 10px;
+}
+.main {
+    padding: 15px 50px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 header{
     padding-top: 25px;
-    background-color: #ffc13b;
-    text-align: center
+    text-align: center;
+    background: url("header_bg.jpg") no-repeat center;
+    height: 650px;
 }
 
-.logo {
+h1 {
     color: #fff;
     font-size: 50px;
-    font-family: 'Kodchasan', Arial, sans-serif
 }
 
 header input {
     font-size: 30px;
-    margin: 25px;
+    margin: 580px auto;
 }
+
+.non-active {
+    background-color: #000;
+    transition: 1s;
+}
+
+.active {
+    background-color: #ffc13b;
+    transition: 5s;
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+

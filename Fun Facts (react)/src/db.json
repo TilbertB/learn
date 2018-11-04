@@ -1,22 +1,82 @@
 [
     {
         "id": 1,
-        "title": "1",
-        "fact": "PCs went by the name “Electronic Brains” in the 1950s."
+        "title": "Pink and Floyd",
+        "fact": "The band’s name “Pink Floyd” is actually the name of two different persons: South Carolina Bluesmen, Pink Anderson and North Carolina Bluesman, Floyd Council. Syd Barret was a very big fan of both of them."
     },
     {
         "id": 2,
-        "title": "2",
-        "fact": "Email has been around longer than the World Wide Web."
+        "title": "When Roger, Richard and Nick met",
+        "fact": "The founder member of Pink Floyd, Roger Waters, Richard Wright and Nick Mason met at the London Polytechnic in the year 1963 while studying architecture. This institute is now known as the University of Westminster."
     },
     {
         "id": 3,
-        "title": "3",
-        "fact": "HP, Google, Microsoft and Apple have just one thing in common, other than the fact that they are IT companies. They were all started in garages."
+        "title": "Syd Barrett after Sid Barrett",
+        "fact": "Syd Barrett’s real name is Roger Keith Barrett. When he was fifteen his friends nicknamed him ‘Syd’ after a local drummer named Sid Barrett."
     },
     {
         "id": 4,
-        "title": "4",
-        "fact": "Bill Gates’ house was designed used a Mac computer."
+        "title": "A low- tech start up",
+        "fact": "Pink Floyd is known for its live performances with visual effects. At the beginning of their career they used slide projectors and also colored condoms stretched over lights to bring the visual effects. Creativity really has some liberty as to explore art! Or should I say exploit things. Boom! That doesn’t look low tech now!"
+    },
+    {
+        "id": 5,
+        "title": "A multimedia affair",
+        "fact": "Since 1966, every live performance by Pink Floyd was accompanied by a film which was projected at the back of the band. This helped them in setting a backdrop and creating the mood and excitement among public. Their elaborate live show made them one of the most influential and commercially successful rock band in the history of pop music."
+    },
+    {
+        "id": 6,
+        "title": "Rebellion or Revolution? or Stupidity?",
+        "fact": "The most successful single of Pink Floyd – “Another Brick in the Wall, Part 2” was a song written to protest against boarding schools and rigid school policies. They were influential and this one is a good influence. Schools are just creating what the corporates need. Boxed brains to serve them the way they want. Like the army. They got it all upside down."
+    },
+    {
+        "id": 7,
+        "title": "Records made by “the Dark Side of the Moon”",
+        "fact": "The Dark side of the moon is the most successful album of Pink Floyd. It was so successful that it was on the charts for 591 consecutive weeks i.e. 11.4 years in Billboard top 200. That’s why it had been recorded in The Guinness Book of World Record. In some billboard chart it was for a staggering 26 years! I’m speechless. One of those moments when I feel like a dot in the universe. Not such a bad feeling though.. except for the ego.. oh well, “a bad day for the ego, is a good day for the soul.”"
+    },
+    {
+        "id": 8,
+        "title": "The dog in ‘Seamus’",
+        "fact": "In the 1971 album ‘Seamus’ there is a dog. This dog actually belonged to Steve Marriot. When Steve was touring, David Gilmour watched the dog and eventually discovered that the dog would howl whenever someone played harmonica! Ma dawgg ! Must be trying singing! Music does that buddy! Them feels!"
+    },
+    {
+        "id": 9,
+        "title": "When kids sued Pink Floyd",
+        "fact": "Say whaaat ! If you have heard “Another Brick in the Wall, Part – 2” then you will remember the chorus of school children singing the line “We don’t need no education”. In the year 2004 these school children (who had become adults by then) filed a lawsuit against the band and demanded to get paid. It ultimately proved unsuccessful. We need education but not rigidity and schools are not necessary for education. One must appear for exams and get a degree. But you can study on your own. They weren’t against education, but schooling."
+    },
+    {
+        "id": 10,
+        "title": "The song ‘Arnold Layne’ is based on a real thief",
+        "fact": "The first single of Pink Floyd – ‘Arnold Layne’ is actually based on a real person whom Roger Waters knew. That person used to steal women’s knickers and clothes from the washing lines!"
+    },
+    {
+        "id": 11,
+        "title": "Pink Floyd recorded live",
+        "fact": "In the year 1972, Pink Floyd released an album which was recorded when the band was playing in an amphitheater in Pompeii without any audience. That’s authentic now!"
+    },
+    {
+        "id": 12,
+        "title": "David Gilmour’s guitar collection",
+        "fact": "Guitarist David Gilmour loves his guitars and has an extensive collection of classic guitars. He even owns the Fender Stratocaster with the first serial number!"
+    },
+    {
+        "id": 13,
+        "title": "The front cover of “The Dark side of the Moon” was decided in 3 minutes",
+        "fact": "For the cover of this album there were seven options. When asked which one to choose all the members of the band choose the one with prism.And we all know why they chose this. Do we ?"
+    },
+    {
+        "id": 14,
+        "title": "When “The dark side of the Moon” became the best album to have sex",
+        "fact": "In the year 1990, radio listeners in Australia voted that “the Dark Side of the Moon” as the best album to have sex to. Hmm.. Gotta buy that one!"
+    },
+    {
+        "id": 15,
+        "title": "They were the first rock band to use live surround sound",
+        "fact": "The Pink Floyd used Azimuth Co-coordinator quadraphonic sound system. In 1967 during performance at auditorium Richard Wright used joystick for 270 degree surround sound. Later in 1972 they upgraded to a 360 degree surround sound. Boys and our toys! Love em! Mine are Guitar and Tabla 🙂"
+    },
+    {
+        "id": 16,
+        "title": "“The Endless River” was recorded on a boat",
+        "fact": "The last album of Pink Floyd “The Endless River” was recorded in the houseboat of David Gilmour. The studio in the houseboat, The Astoria, was small but the ambiance made it an interesting recording session for Pink Floyd. Success is sweet.. mmm..I got a sweet tooth!"
     }
 ]

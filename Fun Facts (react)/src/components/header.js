@@ -2,30 +2,26 @@ import React, {Component} from 'react';
 
 class Header extends Component {
 
-    // state = {
-    //     searchWord: ''
-    // };
+    state = {
+        active: 'non-active',
+        searchWord: ''
+    };
 
     changeSearch =(event) => {
+        const value = event.target.value === '' ? 'non-active' : 'active';
         this.setState({
+            active: value,
             searchWord: event.target.value
         })
     };
 
-    static clickHandler() {
-        alert('Why are you clicking ? Go search')
-    }
-
     render () {
         return (
-            <header>
-            <div
-                className='logo'
-                onClick={Header.clickHandler}
-            >20 Fun Facts About Technology</div>
-            <input 
-                type="text"
-                onChange={this.changeSearch}
+            <header
+                className={this.state.active}>
+                <input
+                    type="text"
+                    onChange={this.changeSearch}
                 />
             </header>
         )

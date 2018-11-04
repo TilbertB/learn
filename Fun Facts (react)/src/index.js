@@ -6,6 +6,7 @@ import JSON from './db.json';
 //components
 import Header from './components/header.js';
 import FactsList from './components/facts_list.js';
+import Footer from "./components/footer";
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
             <div>
                 <Header/>
                 <FactsList facts={this.state.facts}/>
+                <Footer/>
             </div>
         )
     }

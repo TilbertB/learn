@@ -10,7 +10,8 @@ const FactsList = (props) => {
     });
 
     return (
-        <div>
+        <div
+        className='main'>
             {items}
         </div>
     )
