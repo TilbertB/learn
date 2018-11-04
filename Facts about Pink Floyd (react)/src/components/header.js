@@ -1,30 +1,15 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class Header extends Component {
-
-    state = {
-        active: 'non-active',
-        searchWord: ''
-    };
-
-    changeSearch =(event) => {
-        const value = event.target.value === '' ? 'non-active' : 'active';
-        this.setState({
-            active: value,
-            searchWord: event.target.value
-        })
-    };
-
-    render () {
+const Header = (props) => {
         return (
             <header
-                className={this.state.active}>
+            className="header">
                 <input
                     type="text"
-                    onChange={this.changeSearch}
+                   onChange={props.keyword}
                 />
             </header>
         )
-    }
-}
+};
+
 export default Header;
