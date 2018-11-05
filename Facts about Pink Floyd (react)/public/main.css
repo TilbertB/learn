@@ -1,5 +1,6 @@
 *{
-    font-family: 'Kodchasan', Arial, sans-serif
+    font-family: 'Kodchasan', Arial, sans-serif;
+    box-sizing: border-box
 }
 body{
     margin: 0;
@@ -18,13 +19,17 @@ h2{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    flex:1;
+    flex:1
 }
 header{
     padding-top: 25px;
     text-align: center;
     background: url("./img/header_bg.jpg") no-repeat center;
-    height: 650px
+    height: 645px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 12px
 }
 .header {
     background-color: #000
@@ -35,7 +40,7 @@ h1 {
 }
 header input {
     font-size: 30px;
-    margin: 580px auto
+    height: 50px
 }
 footer {
     text-align: center;
@@ -47,5 +52,6 @@ a {
 }
 .global {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    min-height: 100vh
 }
