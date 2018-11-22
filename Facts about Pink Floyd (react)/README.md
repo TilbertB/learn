@@ -1,1 +1,1 @@
-My first React project about 'Pink Floyd'. http://pinkfloydfacts.zzz.com.ua/
+My first React project about 'Pink Floyd'. https://pinkfloyd-tilbert.firebaseapp.com/facts
