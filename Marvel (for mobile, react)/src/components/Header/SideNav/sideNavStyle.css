@@ -1,0 +1,10 @@
+.option a{
+    text-decoration: none;
+}
+.option a span {
+    color: red;
+}
+.option {
+    font-size: 75px;
+    margin-left: 15px;
+}
