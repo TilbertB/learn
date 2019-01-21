@@ -1,3 +1,5 @@
+I started to create this app and it was too easy. So, I decided to move forward for a new knowledge :)
+
 My first React project for mibile about 'Marvel'. 
 Used:
 
