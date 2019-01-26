@@ -1,1 +1,1 @@
-http://looplap.zzz.com.ua/#share-head-section
+http://looplap.zzz.com.ua/#home
