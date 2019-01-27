@@ -16,6 +16,7 @@ export default function Navigation() {
     text-transform: uppercase;
     font-family: 'Prompt', sans-serif;
     font-weight: black;
+    background-image: url("../images/bg-main.png");
   `;
   
   const NavItems = styled.div`
@@ -26,14 +27,14 @@ export default function Navigation() {
 
   return (
       <Router>
-        <div className="container">
+        <div>
           <NavGeneral>
             <Navbar expand="lg">
-              <Navbar.Brand href="/" className="pl-5">
+              <Navbar.Brand href="/">
                 <img
                   src={logo}
-                  width="40px"
-                  height="40px"
+                  width="35px"
+                  height="35px"
                   alt="Deru logo"
                 />
                 <span className="ml-2">Deru</span>
