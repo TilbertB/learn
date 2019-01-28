@@ -8,21 +8,39 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 export default function Home() {
-  const Wrapper = styled.div`
-    background-image: url("../../images/bg-main.png");
-  `;
+
+  const ButtonCustom = styled(Button)`
+    color: #d9e778;
+    border-color: #d9e778;
+    border-width: 2px;
+    font-weight: bold;
+    &:hover{
+      background-color: #d9e778;
+      border-color: #d9e778;
+      color: #A9A9A9;
+    }
+    @media (max-width: 770px) {
+        margin-bottom: 5px
+    }
+  `
 
   const Home = styled.div`
     text-transform: uppercase;
     font-family: 'Prompt', sans-serif;
     font-weight: black;
     font-size:0.8rem;
+    margin-top: 10rem;
+    @media (max-width: 770px) {
+      h1{
+        font-size:2rem;
+      }
+      
+  }
   `;
   return (
-    <Wrapper>
-      <Container className="text-center">
+      <Container className="text-center" >
           <Row>
-            <Home className="col-lg-8 col-md-10 mx-auto mt-5">
+            <Home className="col-lg-8 col-md-10 mx-auto">
               <h1 className="display-4">
               EOS Truth & Performance Bonds
               </h1>
@@ -31,14 +49,13 @@ export default function Home() {
           </Row>
           <Row className="mt-2">
             <Col className="text-center">
-            
-                <Button variant="outline-success">Make promise</Button>
-                <Button variant="outline-success">Search promise</Button>
-                <Button variant="outline-success">Arbitrators</Button>
+             
+                <ButtonCustom variant="outline-light" size="lg" className="mx-1">Make promise</ButtonCustom>
+                <ButtonCustom variant="outline-light" size="lg" className="mx-1">Search promise</ButtonCustom>
+                <ButtonCustom variant="outline-light" size="lg" className="mx-1">Arbitrators</ButtonCustom>
               
             </Col>
           </Row>
       </Container>
-    </Wrapper>
   )
 }

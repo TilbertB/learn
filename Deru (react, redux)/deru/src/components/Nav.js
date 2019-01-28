@@ -8,6 +8,7 @@ import styled from 'styled-components';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
 
 import logo from '../images/logo1.png';
 
@@ -16,7 +17,6 @@ export default function Navigation() {
     text-transform: uppercase;
     font-family: 'Prompt', sans-serif;
     font-weight: black;
-    background-image: url("../images/bg-main.png");
   `;
   
   const NavItems = styled.div`
@@ -28,28 +28,30 @@ export default function Navigation() {
   return (
       <Router>
         <div>
-          <NavGeneral>
-            <Navbar expand="lg">
-              <Navbar.Brand href="/">
-                <img
-                  src={logo}
-                  width="35px"
-                  height="35px"
-                  alt="Deru logo"
-                />
-                <span className="ml-2">Deru</span>
-              </Navbar.Brand>
-              <Navbar.Toggle children="Menu"/>
-              <Navbar.Collapse id="basic-navbar-nav">
-                <NavItems  className="ml-auto">
-                  <Nav>
-                    <Nav.Link href="/promises">Search promises</Nav.Link>
-                    <Nav.Link href="/about">About</Nav.Link>
-                    <Nav.Link href="/login">Log in</Nav.Link>
-                  </Nav>
-                </NavItems>
-              </Navbar.Collapse>
-            </Navbar>
+          <NavGeneral >
+            <Container>
+              <Navbar expand="lg" variant="dark">
+                <Navbar.Brand href="/">
+                  <img
+                    src={logo}
+                    width="35px"
+                    height="35px"
+                    alt="Deru logo"
+                  />
+                  <span className="ml-2">Deru</span>
+                </Navbar.Brand>
+                <Navbar.Toggle children="Menu"/>
+                <Navbar.Collapse id="basic-navbar-nav">
+                  <NavItems  className="ml-auto">
+                    <Nav>
+                      <Nav.Link href="/promises">Promises</Nav.Link>
+                      <Nav.Link href="/about">About</Nav.Link>
+                      <Nav.Link href="/login">Log in</Nav.Link>
+                    </Nav>
+                  </NavItems>
+                </Navbar.Collapse>
+              </Navbar>
+            </Container>
           </NavGeneral>
           
           

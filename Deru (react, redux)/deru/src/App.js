@@ -6,9 +6,11 @@ import Container from 'react-bootstrap/Container';
 
 
 export default function App() {
+
   return (
-    <Container>
-      <Navigation/>   
-    </Container>
+      <Container>
+        <Navigation/>   
+      </Container>
+
   )
 }
